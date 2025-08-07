@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect, useRef} from 'react'
+import { useState, useCallback, useEffect, useRef } from 'react'
 import './App.css'
 
 function App() {
@@ -72,7 +72,7 @@ function App() {
               onChange={() => {
                 setNumberAllowed((prev) => !prev);
               }} />
-              <label>Numbers: {numberAllowed}</label>
+            <label>Numbers: {numberAllowed}</label>
           </div>
 
           <div className='flex items-center gap-x-1'>
@@ -82,7 +82,7 @@ function App() {
               onChange={() => {
                 setCharAllowed((prev) => !prev);
               }} />
-              <label>Characters: {charAllowed}</label>
+            <label>Characters: {charAllowed}</label>
           </div>
 
         </div>
