@@ -74,7 +74,7 @@ function App() {
               }} />
             <label>Numbers: {numberAllowed}</label>
           </div>
-
+              //This is same div for input box
           <div className='flex items-center gap-x-1'>
             <input type="checkbox"
               defaultChecked={charAllowed}
